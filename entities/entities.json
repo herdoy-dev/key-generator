@@ -1,0 +1,22 @@
+{
+  "entityId": "entity_0e2cbb95_c382_4548_ab04_3109fc6b63cb",
+  "walletId": "znc_wallet_a2efddaf_f752_4cfa_917e_5a9a337b7d36",
+  "addresses": ["bus58MEb8juVRSgwazANfmxnDp6FypTLhNGhZfrk6Pr"],
+  "type": "individual",
+  "firstName": "Poritos",
+  "lastName": "Yadav",
+  "email": "herdoy1@gmail.com",
+  "phoneNumberPrefix": "91",
+  "phoneNumber": "7753479855",
+  "nationality": "IN",
+  "dateOfBirth": "2000-11-29",
+  "permanentAddress": {
+    "addressLine1": "Dharwara",
+    "addressLine2": "Karchhana",
+    "locality": "Dombiwadi",
+    "city": "Prayagraj",
+    "state": "UP",
+    "country": "IN",
+    "postalCode": "212310"
+  }
+}
