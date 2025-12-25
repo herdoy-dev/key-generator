@@ -13,8 +13,8 @@ const compressedPublicKey = keyPair.getPublic(true, "hex");
 const privateKeyHex = keyPair.getPrivate("hex").padStart(64, "0");
 
 // Save both
-fs.writeFileSync("ephemeral_private.hex", privateKeyHex);
-fs.writeFileSync("ephemeral_public_compressed.hex", compressedPublicKey);
+fs.writeFileSync("private.hex", privateKeyHex);
+fs.writeFileSync("public_compressed.hex", compressedPublicKey);
 
 console.log("Private key (64 chars):", privateKeyHex);
 console.log("Compressed Public key (66 chars):", compressedPublicKey);

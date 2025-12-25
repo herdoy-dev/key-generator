@@ -16,9 +16,9 @@ const toBase64Url = (str) => {
 };
 
 // Load your keys
-const privateKeyHex = fs.readFileSync("ephemeral_private.hex", "utf-8").trim();
+const privateKeyHex = fs.readFileSync("private.hex", "utf-8").trim();
 const compressedPublicKey = fs
-  .readFileSync("ephemeral_public_compressed.hex", "utf-8")
+  .readFileSync("public_compressed.hex", "utf-8")
   .trim();
 
 // Initialize elliptic curve
